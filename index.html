@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal ART</title>
+    <link rel="icon" href="img/logodepestaña.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<div class="grid areasGeneral">
+
+    <body>
+        <header class="header">
+            <div>
+                <img class="styleUniversal" src="img/FONDODELHEADER5.png" alt="foto del encabezado">
+            </div>
+            <div>
+                <a href="index.html"><img class="logoPosition logoShadow" src="img/logo.png" width="550" height="180" alt="logo de universalart" title="Logo de UniversalART"></a>
+            </div>
+            <div>
+                <input class="buscadorPosition" placeholder="Buscar Aqui" type="search" name="search">
+            </div>
+        </header>
+        <div class="contenedornav">
+            <!--Inicia NAV-->
+            <nav class="botonera">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="src/historiadelarte.html">Historia Del Arte</a></li>
+                    <li><a href="src/obrasdearte.html">Obras De Arte</a></li>
+                    <li><a href="src/personajes.html">Personajes</a></li>
+                    <li><a href="src/principalesmuseos.html">Principales Museos</a></li>
+                    <li><a href="src/ustedes.html">Ustedes</a></li>
+                </ul>
+
+
+            </nav>
+            <!--Finaliza NAV-->
+            <!--Inicia MAIN-->
+            <main id="universalart" class="centro centroRes">
+                <!--Inicia SECTION-->
+                <section>
+                    <article class="fondoarticle1 modificador__article">
+                        <h1 class="textCenter">Bienvenidos al Universo del Arte </h1>
+                        <div class="editp1">
+                            <P class="textCenter">Te invitamos a viajar en el universo del arte, conocer a los mejores artistas a lo largo de la historia y ver las mejores obras de arte del mundo: conocer su historia, cuándo fueron creadas, en qué museo se encuentran en la
+                                actualidad y cuál es su valoración actual.
+                                <span class="fondotext textRed"> En el universo del arte vas a encontrar esa inspiración que
+                            estas buscando para tus propios proyectos.</span> </P>
+                        </div>
+                    </article>
+                    <div class="formYmaps">
+                        <article>
+                            <!--Inicia FORM-->
+
+                            <form action="envio.php" method="post" id="ustedes">
+                                <fieldset>
+                                    <legend>Dejanos Tu Proyecto</legend>
+                                    <label for="nombre">Nombre y Apellido:</label>
+                                    <input type="text" placeholder="Juan Perez" name="nombre" id="nombre" required>
+                                    <br><br>
+                                    <label for="obradearte">Nombre De Tu Obra:</label>
+                                    <input type="text" placeholder="La Joven De La Perla" name="obradearte" id="obradearte" required>
+                                    <br><br>
+                                    <label for="email">Email:</label>
+                                    <input type="email" placeholder="fulanito@gmail.com" name="email" id="email" required>
+                                    <br><br>
+                                </fieldset>
+                                <label for="describinostuobra">Describinos Tu Obra</label>
+                                <br>
+                                <textarea name="describinostuobra" id="describinostuobra" cols="30" rows="10"></textarea>
+                                <br>
+                                <input type="submit">
+                                <input type="reset">
+
+
+                            </form>
+                            <!--cierra FORM-->
+                        </article>
+                        <article class="mapaBorde">
+                            <h4>Podes visitar el museo de bellas vistas en :</h4>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.797702596576!2d-58.395193085273476!3d-34.58398496396025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa199c2f643%3A0x49e543b8331abe7d!2sMuseo%20Nacional%20de%20Bellas%20Artes!5e0!3m2!1ses-419!2sar!4v1645672451311!5m2!1ses-419!2sar"
+                                width="300" height="300"></iframe>
+                        </article>
+                    </div>
+                </section>
+                <!--Finaliza SECTION-->
+            </main>
+        </div>
+
+        <!--Finaliza MAIN-->
+        <!--Inicia FOOTER-->
+        <footer class="pie">
+            <div>
+                <h4>Universal ART</h4>
+                <p>© 2022 universalart, todos los derechos reservados.</p>
+            </div>
+            <div class="infoFooter">
+                <a class="separador" href=" terminodeuso" target="_blank">Términos de uso</a>
+                <a href=" politicasdeprivacidad" target="_blank">Políticas de privacidad</a>
+                <a href=" versión para móviles" target="_blank">Versión para móviles</a>
+            </div>
+            <div class="textRight ">
+                <h3>Seguinos en nuestras redes</h3>
+                <a href="https://www.facebook.com/Universal-ART-112228954727953 " target="_blank "><img src="img/face.png " alt="facebook "></a>
+                <a href="https://www.instagram.com/universalartoficial/ " target="_blank "><img src="img/insta.png " alt="instagram "></a>
+                <a href="https://twitter.com/UniversalART9 " target="_blank "><img src="img/twit.png " alt="tiwtter "></a>
+            </div>
+        </footer>
+        <!--Inicia FOOTER-->
+    </body>
+</div>
+
+</html>

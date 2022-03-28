@@ -1,0 +1,468 @@
+            @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+            /*inicia css de Index.html*/
+            /*selector universal*/
+            
+            * {
+                font-family: 'Roboto', sans-serif;
+            }
+            /*selector de etiquetas*/
+            
+            html {
+                font-size: 100%;
+            }
+            
+            body {
+                background-image: url(../img/fondodepantalla6.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+            }
+            
+            footer {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            section article h1 {
+                color: rgb(35, 16, 53);
+                font-size: 2rem;
+                font-weight: 900;
+            }
+            /* inicia botonera */
+            
+            nav {
+                background-color: blueviolet;
+                background-size: 100%;
+                padding: 30px;
+                width: 150px;
+                border: groove 0.30rem blue;
+            }
+            
+            nav ul {
+                list-style: none;
+            }
+            
+            nav ul li {
+                font-size: 1rem;
+                margin-right: 80px;
+                margin-left: -30px;
+            }
+            
+            nav ul li a {
+                font-family: 'Cinzel', sans-serif;
+                color: yellow;
+                text-decoration: none;
+                background-position: center;
+                border: groove 0.20rem yellow;
+                display: list-item;
+                width: 100%;
+                text-align: center;
+                padding: 5px 35px 5px 35px;
+            }
+            /* finaliza botonera */
+            /*selector de clase*/
+            
+            .textRed {
+                color: rgb(37, 17, 65);
+            }
+            
+            .fondotext {
+                background-color: rgba(192, 243, 74, 0.477);
+            }
+            
+            .fondoarticle1 {
+                background-color: rgba(255, 118, 118, 0.409);
+            }
+            
+            .editp1 {
+                color: rgb(188, 15, 231);
+                font-size: 1.25rem;
+                font-weight: 500;
+                line-height: 1.60rem;
+            }
+            
+            .textCenter {
+                text-align: center;
+            }
+            
+            .textRight {
+                text-align: right;
+            }
+            
+            .modificador__article {
+                width: 100%;
+                height: auto;
+                overflow: auto;
+                margin: 20px auto;
+                padding: 30px;
+                box-sizing: border-box;
+                /*border-style: groove;
+    border-width: 0.50rem;
+    border-color: blue; (dejo esto aca para tener a futuro las opciones disponibles de poder modificar los bordes*/
+                border: groove 0.30rem blue;
+            }
+            
+            .contenedornav {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            #ustedes {
+                height: auto;
+                margin: 20px auto;
+                border: groove 0.30rem blue;
+                padding: 5px;
+            }
+            
+            .formYmaps {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .mapaBorde {
+                height: 30;
+                margin: 20px auto;
+                padding: 5px;
+                border: groove 0.30rem blue;
+                box-sizing: border-box;
+                display: flex;
+            }
+            
+            .styleUniversal {
+                width: 100%;
+                height: 180px;
+            }
+            
+            .logoPosition {
+                position: absolute;
+                top: 1rem;
+                ;
+                left: 1.25rem;
+                ;
+            }
+            
+            .buscadorPosition {
+                position: absolute;
+                right: 2rem;
+                top: 5rem;
+                margin-right: 4rem;
+            }
+            
+            .infoFooter {
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-around;
+            }
+            
+            .infoFooter a {
+                padding: 0.3rem;
+            }
+            
+            .logoShadow {
+                filter: drop-shadow(0 3px 1px rgb(255, 196, 0));
+            }
+            /*finaliza css de index.html*/
+            /*incia css historiadelarte.html*/
+            
+            .mainEdit {
+                display: flex;
+                border-radius: 5rem;
+                margin: 2rem;
+            }
+            
+            .titleEdit {
+                margin: 2;
+                text-align: center;
+                color: rgb(0, 0, 255);
+                background-color: rgba(0, 255, 255, 0.329);
+            }
+            
+            .textCenter {
+                text-align: center;
+            }
+            /*finaliza css historiadelarte.html*/
+            /*incia css de obrasdearte.html*/
+            
+            .mainArt {
+                column-count: 3;
+                margin: 2rem;
+            }
+            
+            .titleArt {
+                margin: 2;
+                text-align: center;
+                color: rgb(0, 0, 255);
+                background-color: rgba(0, 255, 255, 0.329);
+            }
+            /*finaliza css de obrasdearte.html*/
+            /*inicia css personajes.html*/
+            
+            .titlePer {
+                margin: 2rem;
+                text-align: center;
+                color: rgb(0, 0, 255);
+                background-color: rgba(0, 255, 255, 0.329);
+            }
+            
+            .contenCentral {
+                column-count: 3;
+                margin: 2rem;
+            }
+            
+            .textoEdit {
+                margin: 2rem
+            }
+            /*finaliza css personajes.html*/
+            /*inicia css principalesmuseos.html*/
+            
+            .titleMuse {
+                margin: 3rem;
+                text-align: center;
+                color: blue;
+                background-color: rgba(0, 255, 255, 0.329);
+            }
+            
+            .centralMuse {
+                column-count: 2;
+                margin: 2rem;
+            }
+            /*finaliza principalesmuseos.html*/
+            /*inicia css ustedes.html*/
+            
+            .titleUtd {
+                margin: 2rem;
+                text-align: center;
+                color: rgb(0, 0, 255);
+                background-color: rgba(0, 255, 255, 0.329);
+            }
+            
+            .mainUtd {
+                column-count: 2;
+                margin: 2rem;
+            }
+            
+            .editPutd {
+                margin: 2rem;
+            }
+            /*finaliza css ustedes.html*/
+            /*grids en index*/
+            
+            .grid {
+                width: 100%;
+                display: grid;
+            }
+            
+            .areasGeneral {
+                grid-template-columns: repeat(2, 1fr, 3fr);
+                grid-template-rows: 200px 900px 100px;
+                grid-template-areas: "header header " "nav main" "footer footer";
+            }
+            
+            .alineContent {
+                align-content: center;
+            }
+            
+            .header {
+                grid-area: header;
+            }
+            
+            .botonera {
+                grid-area: nav;
+            }
+            
+            .centro {
+                grid-area: main;
+            }
+            
+            .pie {
+                grid-area: footer;
+            }
+            /*fin de grid index*/
+            /*inicia grid historia del arte*/
+            
+            .grid2 {
+                width: 100%;
+                display: grid;
+            }
+            
+            .areasGeneral2 {
+                grid-template-columns: repeat(2, 1fr, );
+                grid-template-rows: 200px 1200px 100px;
+                grid-template-areas: "header header " "nav main" "footer footer";
+            }
+            
+            .header2 {
+                grid-area: header;
+            }
+            
+            .botonera2 {
+                grid-area: nav;
+            }
+            
+            .centro2 {
+                grid-area: main;
+            }
+            
+            .pie2 {
+                grid-area: footer;
+            }
+            /*fin grid historia del arte*/
+            /*inicia grid obras del arte*/
+            
+            .grid3 {
+                width: 100%;
+                display: grid;
+            }
+            
+            .areasGeneral3 {
+                grid-template-columns: repeat(2, 1fr, );
+                grid-template-rows: 200px 1200px 100px;
+                grid-template-areas: "header header " "nav main" "footer footer";
+            }
+            
+            .header3 {
+                grid-area: header;
+            }
+            
+            .botonera3 {
+                grid-area: nav;
+            }
+            
+            .centro3 {
+                grid-area: main;
+            }
+            
+            .pie3 {
+                grid-area: footer;
+            }
+            /*fin de grid obras del arte*/
+            /*inicia grid personajes */
+            
+            .grid4 {
+                width: 100%;
+                display: grid;
+            }
+            
+            .areasGeneral4 {
+                grid-template-columns: repeat(2, 1fr, );
+                grid-template-rows: 200px 1400px 100px;
+                grid-template-areas: "header header " "nav main" "footer footer";
+            }
+            
+            .header4 {
+                grid-area: header;
+            }
+            
+            .botonera4 {
+                grid-area: nav;
+            }
+            
+            .centro4 {
+                grid-area: main;
+            }
+            
+            .pie4 {
+                grid-area: footer;
+            }
+            /* fin de grid personajes*/
+            /*inicia grid principales museos*/
+            
+            .grid5 {
+                width: 100%;
+                display: grid;
+            }
+            
+            .areasGeneral5 {
+                grid-template-columns: repeat(2, 1fr, );
+                grid-template-rows: 200px 900px 100px;
+                grid-template-areas: "header header " "nav main" "footer footer";
+            }
+            
+            .header5 {
+                grid-area: header;
+            }
+            
+            .botonera5 {
+                grid-area: nav;
+            }
+            
+            .centro5 {
+                grid-area: main;
+            }
+            
+            .pie5 {
+                grid-area: footer;
+            }
+            /*find e grid principales museos*/
+            /*inicia grid ustedes*/
+            
+            .grid6 {
+                width: 100%;
+                display: grid;
+            }
+            
+            .areasGeneral6 {
+                grid-template-columns: repeat(2, 1fr, );
+                grid-template-rows: 200px 500px 100px;
+                grid-template-areas: "header header " "nav main" "footer footer";
+            }
+            
+            .header6 {
+                grid-area: header;
+            }
+            
+            .botonera6 {
+                grid-area: nav;
+            }
+            
+            .centro6 {
+                grid-area: main;
+            }
+            
+            .pie6 {
+                grid-area: footer;
+            }
+            /*fin de grid ustedes*/
+            /*responsive index*/
+            
+            @media only screen and (max-width: 390px) {
+                .areasGeneral {
+                    grid-template-columns: repeat(1, 5fr, 3fr);
+                    grid-template-rows: 50vw 370vw 1vw;
+                    grid-template-areas: "header " "main" "footer ";
+                }
+                .contenedornav {
+                    display: block;
+                    align-items: center;
+                    width: 100vw;
+                }
+                .botonera {
+                    display: flex;
+                    justify-content: left;
+                    margin-left: 5%;
+                }
+                .pie {
+                    display: block;
+                    text-align: center;
+                }
+                .textRight {
+                    display: block;
+                    text-align: center;
+                }
+                .buscadorPosition {
+                    display: block;
+                    margin: 20%;
+                }
+                .logoPosition {
+                    display: block;
+                    justify-content: left;
+                    margin: auto;
+                    width: 100%;
+                }
+            }
+            
+            #universalart {
+                width: auto;
+                margin: 2rem;
+            }
